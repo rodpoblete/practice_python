@@ -4,6 +4,7 @@ Take this opportunity to practice using functions, described below. """
 
 
 def run():
+    """Ask a user for a number and determine whether the number is prime or not."""
     user_number = int(input("Please enter a number: "))
     if user_number < 1:
         return print(f"{user_number} NOT a prime!")
@@ -16,5 +17,5 @@ def run():
         return print(f"{user_number} IS prime!")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     run()
