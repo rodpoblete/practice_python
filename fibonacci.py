@@ -5,6 +5,7 @@ the sum of the previous two numbers in the sequence. The sequence looks like thi
 
 
 def run():
+    """Asks the user how many Fibonnaci numbers to generate and then generates them."""
     number = int(input("Please enter a number: "))
     a = 0
     b = 1
@@ -13,7 +14,7 @@ def run():
     elif number == 1:
         return b
     else:
-        for i in range(2, number+1):
+        for i in range(2, number + 1):
             c = a + b
             a = b
             b = c
