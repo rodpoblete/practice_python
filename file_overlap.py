@@ -7,6 +7,8 @@ los números felices son verdaderos en las matemáticas, puedes buscarlo en Wiki
 
 
 def run():
+    """Lee 2 archivos txt y retorna un array con la lista de las similitudes entre ambos."""
+
     lista_primos = []
     lista_felices = []
     lista_solapados = []
